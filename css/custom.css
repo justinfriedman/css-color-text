@@ -1,4 +1,48 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+
+
+ }
 
 /*insert custom css below*/
+body {
+  background-color: rgba(24, 24, 23, 0.47);
+}
+
+.heading {
+  text-align: center;
+}
+
+.box {
+  width: 400px;
+  margin: auto;
+  padding: 12px;
+  border:10px solid #083bed;
+
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(236, 151, 6);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(236, 151, 6);
+    text-decoration:line-through;;
+}
+
+/* mouse over link */
+a:hover {
+    color: #083bed;
+    text-decoration:underline;;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+.read-more:link {
+  text-decoration: underline;;
+}
